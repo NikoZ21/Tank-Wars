@@ -10,7 +10,7 @@ public abstract class Coin : NetworkBehaviour
     protected bool alreadyCollected;
 
     public abstract int Collect();
-
+    
     public void SetValue(int value)
     {
         this.coinValue = value;
